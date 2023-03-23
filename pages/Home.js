@@ -1,21 +1,22 @@
 import React from "react";
-import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Section from "../components/Section";
+import LatestNews from "../components/LatestNews";
+import Blogs from "./Blogs";
+
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <div className="container mx-auto px-4 py-8">
+      <Section>
         <h1 className="text-3xl font-bold mb-6">Indian Stock Market Watch</h1>
-
         <p className="mb-4">
           Welcome to the Indian Stock Market Watch, your one-stop source for the
           latest news, insights, and updates on the Indian stock market. Our
           goal is to provide you with accurate and timely information to help
           you make informed investment decisions.
         </p>
-
         <p className="mb-4">
           The Indian stock market has grown exponentially over the past few
           decades, attracting investors from all around the world. With a
@@ -23,7 +24,6 @@ const Home = () => {
           and infrastructure, the Indian market offers a wealth of opportunities
           for investors to explore.
         </p>
-
         <p className="mb-4">
           Our platform provides comprehensive coverage of the National Stock
           Exchange (NSE) and the Bombay Stock Exchange (BSE), along with
@@ -31,7 +31,6 @@ const Home = () => {
           addition, we provide in-depth analysis and expert opinions on
           individual stocks, sectors, and the overall market.
         </p>
-
         <p className="mb-4">
           Stay ahead in the world of investing by keeping yourself updated with
           our latest news, expert opinions, and insightful articles on the
@@ -39,7 +38,14 @@ const Home = () => {
           investor, our platform offers valuable resources to help you make
           well-informed decisions and achieve your financial goals.
         </p>
-      </div>
+      
+      </Section>
+      <Section backgroundColor="gray-100">
+        <LatestNews />
+      </Section>
+      <Section>
+        <Blogs />
+      </Section>
     </>
   );
 };
