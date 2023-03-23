@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="bg-gray-800 py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
-        <Link href="/Home">
+        <Link href="/">
           <button className="text-white font-bold text-lg  hover:text-blue-500">
             Indian-Stock-Market-watch
           </button>
