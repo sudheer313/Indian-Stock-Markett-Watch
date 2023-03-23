@@ -34,11 +34,9 @@ const Blogs = () => {
         {blogPosts.map((blogPost, index) => (
           <div key={index} className="border-b border-gray-300 pb-4">
             <h3 className="text-xl font-semibold mb-2">
-              <Link href={`/blog/${blogPost.slug}`} passHref>
-                <button className="text-blue-500 hover:text-blue-700">
-                  {blogPost.title}
-                </button>
-              </Link>
+              <button className="text-blue-500 hover:text-blue-700">
+                {blogPost.title}
+              </button>
             </h3>
             <p className="text-sm text-gray-500 mb-2">{blogPost.date}</p>
             <p className="text-gray-700">{blogPost.summary}</p>
