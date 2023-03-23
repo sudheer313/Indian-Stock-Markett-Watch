@@ -34,7 +34,7 @@ const Home = () => {
         <p className="mb-4">
           Stay ahead in the world of investing by keeping yourself updated with
           our latest news, expert opinions, and insightful articles on the
-          Indian stock market. Whether you're a beginner or an experienced
+          Indian stock market. Whether youre a beginner or an experienced
           investor, our platform offers valuable resources to help you make
           well-informed decisions and achieve your financial goals.
         </p>
