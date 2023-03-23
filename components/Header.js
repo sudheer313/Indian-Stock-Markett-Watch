@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link href="/Home">
           <button className="text-white font-bold text-lg  hover:text-blue-500">
-            Market-watch
+            Indian-Stock-Market-watch
           </button>
         </Link>
         <nav>
@@ -39,7 +39,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/Privacy-policy">
+              <Link href="/PrivacyPolicy">
                 <button className="text-white hover:text-blue-500">
                   Privacy Policy
                 </button>
