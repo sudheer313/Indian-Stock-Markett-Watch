@@ -1,9 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import React from "react";
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 import LatestNews from "../components/LatestNews";
 import Blogs from "./Blogs";
-
 
 const Home = () => {
   return (
@@ -38,7 +39,6 @@ const Home = () => {
           investor, our platform offers valuable resources to help you make
           well-informed decisions and achieve your financial goals.
         </p>
-      
       </Section>
       <Section backgroundColor="gray-100">
         <LatestNews />
