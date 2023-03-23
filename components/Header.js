@@ -38,6 +38,13 @@ const Header = () => {
                 </button>
               </Link>
             </li>
+            <li>
+              <Link href="/Privacy-policy">
+                <button className="text-white hover:text-blue-500">
+                  Privacy Policy
+                </button>
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
