@@ -5,6 +5,7 @@ import Footer from "../components/Footer"; // Import the Footer component
 import ReactGA from "react-ga";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -14,13 +15,18 @@ function MyApp({ Component, pageProps }) {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-1">
-        <Component {...pageProps} />
-      </main>
-      <Footer />
-    </div>
+    <>
+    <Head>
+    <meta name="google-site-verification" content="DvvW_KExAZyAtNmd_jn-aMyTCnRWR8s0LjLqNvpwRys" />
+    </Head>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-1">
+          <Component {...pageProps} />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
 
