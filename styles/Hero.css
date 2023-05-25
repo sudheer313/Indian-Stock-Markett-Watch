@@ -1,0 +1,21 @@
+.heroImage {
+    position: relative;
+    background-image: url('/img1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .heroImage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .heroImage:hover::before {
+    background: rgba(0, 0, 255, 0.5);
+  }
+  
