@@ -1,6 +1,6 @@
 .heroImage {
   position: relative;
-  background-image: url('/img1.jpg');
+  background-image: url('/img2.jpg');
   background-size: cover;
   background-position: center;
 }
