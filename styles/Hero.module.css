@@ -12,9 +12,9 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7); /* Darker overlay with higher opacity */
+  background: rgba(0, 0, 0, 0.1); /* Darker overlay with higher opacity */
 }
 
 .heroImage:hover::before {
-  background: rgba(0, 0, 255, 0.7); /* Darker overlay with higher opacity on hover */
+  background: rgba(0, 0, 255, 0.3); /* Darker overlay with higher opacity on hover */
 }
