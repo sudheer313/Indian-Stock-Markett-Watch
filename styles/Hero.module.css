@@ -1,12 +1,12 @@
 .heroImage {
   position: relative;
-  background-image: url('/img2.jpg');
+  background-image: url("/img3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .heroImage::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -16,5 +16,10 @@
 }
 
 .heroImage:hover::before {
-  background: rgba(0, 0, 255, 0.3); /* Darker overlay with higher opacity on hover */
+  background: rgba(
+    0,
+    0,
+    255,
+    0.3
+  ); /* Darker overlay with higher opacity on hover */
 }
