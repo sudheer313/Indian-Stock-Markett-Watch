@@ -1,22 +1,17 @@
-import React from "react";
+import styles from '../styles/Hero.module.css';
 
 const Hero = () => {
   return (
-    <div>
-      <div
-        className="bg-cover bg-center h-96 text-white py-24 px-10 object-fill"
-        style={{ backgroundImage: 'url("/img1.jpg")' }}
-      >
-        <h1 className=" hover:text-blue-700 text-4xl font-bold mb-4">
-          Welcome to the Bharat-Bull-Bear Stock Market Watch
-        </h1>
-        <p className=" hover:text-blue-700 text-2xl mb-12">
-          Stay up-to-date with the latest news, blogs, and market insights
-        </p>
-        <button className="text-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Get Started
-        </button>
-      </div>
+    <div className={`${styles.heroImage} h-96 py-24 px-10`}>
+      <h1 className="text-4xl font-bold text-red-400 mb-4 shadow-lg">
+        Welcome to the  Indian Stock Market Watch
+      </h1>
+      <p className="text-2xl text-red-400 mb-12 shadow-lg">
+        Stay up-to-date with the latest news, blogs, and market insights
+      </p>
+      <button className="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded">
+        Get Started
+      </button>
     </div>
   );
 };
