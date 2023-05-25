@@ -8,7 +8,7 @@ const Hero = () => {
         style={{ backgroundImage: 'url("/img1.jpg")' }}
       >
         <h1 className=" hover:text-blue-700 text-4xl font-bold mb-4">
-          Welcome to the Indian Stock Market Watch
+          Welcome to the Bharat-Bull-Bear Stock Market Watch
         </h1>
         <p className=" hover:text-blue-700 text-2xl mb-12">
           Stay up-to-date with the latest news, blogs, and market insights
