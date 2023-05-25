@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link href="/Home">
           <button className="text-white font-bold text-lg  hover:text-blue-500">
-            Indian-Stock-Market-watch
+           Bharat-Bull-Bear
           </button>
         </Link>
         <nav>
