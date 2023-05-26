@@ -1,19 +1,24 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import Section from '../components/Section'
-import LatestNews from '../components/LatestNews'
-import Blogs from './Blogs'
-import Head from 'next/head'
+import React from "react";
+import Hero from "../components/Hero";
+import Section from "../components/Section";
+import LatestNews from "../components/LatestNews";
+import Blogs from "./Blogs";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <>
-    <Head>
+      <Head>
         <title>Indian Stock Market Watch - Home</title>
-        <meta 
-          name="description" 
-          content="Welcome to the Indian Stock Market Watch, your one-stop source for the latest news, insights, and updates on the Indian stock market. Stay ahead in the world of investing with our latest news and insightful articles." 
+        <meta
+          name="description"
+          content="Welcome to the Indian Stock Market Watch, your one-stop source for the latest news, insights, and updates on the Indian stock market. Stay ahead in the world of investing with our latest news and insightful articles."
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062165141789437"
+          crossorigin="anonymous"
+        ></script>
       </Head>
       <Hero />
       <Section>
@@ -53,7 +58,7 @@ const Home = () => {
         <Blogs />
       </Section>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
