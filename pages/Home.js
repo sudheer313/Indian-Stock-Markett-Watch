@@ -5,10 +5,18 @@ import Hero from "../components/Hero";
 import Section from "../components/Section";
 import LatestNews from "../components/LatestNews";
 import Blogs from "./Blogs";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>Indian Stock Market Watch</title>
+        <meta
+          name="description"
+          content="Welcome to the Indian Stock Market Watch, your one-stop source for the latest news, insights, and updates on the Indian stock market. We provide accurate and timely information to help you make informed investment decisions."
+        />
+      </Head>
       <Hero />
       <Section>
         <h1 className="text-3xl font-bold mb-6">Indian Stock Market Watch</h1>
