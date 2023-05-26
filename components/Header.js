@@ -39,6 +39,13 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link href="/Robotics">
+                <button className="text-white hover:text-blue-500">
+                  Robotics
+                </button>
+              </Link>
+            </li>
+            <li>
               <Link href="/PrivacyPolicy">
                 <button className="text-white hover:text-blue-500">
                   Privacy Policy
