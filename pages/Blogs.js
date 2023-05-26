@@ -30,7 +30,7 @@ const Blogs = () => {
   return (
     <>
       <Head>
-        <title>Latest Blog Posts - Indian Stock Market Watch</title>
+        <title>Indian Stock Market Watch</title>
         <meta
           name="description"
           content="Explore our latest blog posts on investing in the Indian stock market. Learn tips and strategies for successful investments, understand the future of technology stocks in India, and discover how to diversify your investment portfolio."

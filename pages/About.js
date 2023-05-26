@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About Us - Indian Stock Market Watch</title>
+        <title>Indian Stock Market Watch</title>
         <meta
           name="description"
           content="Indian Stock Market Watch is a platform dedicated to providing the latest news, insights, and updates on the Indian stock market. Learn more about our mission, our team, and our commitment to empowering investors."

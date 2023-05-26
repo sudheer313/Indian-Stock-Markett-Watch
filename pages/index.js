@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Indian Stock Market Watch - Home</title>
+        <title>Indian Stock Market Watch </title>
         <meta
           name="description"
           content="Welcome to the Indian Stock Market Watch, your one-stop source for the latest news, insights, and updates on the Indian stock market. Stay ahead in the world of investing with our latest news and insightful articles."
