@@ -41,7 +41,7 @@ const Header = () => {
             <li>
               <Link href="/Robotics">
                 <button className="text-white hover:text-blue-500">
-                  Robotics
+                  Algo Trading
                 </button>
               </Link>
             </li>
