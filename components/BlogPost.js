@@ -1,39 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Head from "next/head";
-import Header from "../../components/Header";
+import Header from "../components/Header";
 
-const BlogPost = ({ slug }) => {
-  const [blogPostData, setBlogPostData] = useState(null);
-
-  useEffect(() => {
-    const fetchBlogPostData = async () => {
-      try {
-        const response = await fetch(
-          `https://api.bharatbullbear.com/api/blog/${slug}`
-        );
-        const data = await response.json();
-
-        if (response.ok) {
-          setBlogPostData(data); // Set the blog post data if the response is successful
-        } else {
-          throw new Error(data.message); // Handle error if the response is not successful
-        }
-      } catch (error) {
-        console.error(error);
-        // Handle error in fetching the blog post data
-      }
-    };
-
-    fetchBlogPostData();
-  }, [slug]);
-
-  if (!blogPostData) {
-    // Handle loading state or error state
-    return <div>Loading...</div>;
-  }
-
-  const { title, date, summary, content } = blogPostData;
-
+const BlogPost = ({ title, date, summary, link }) => {
   return (
     <>
       <Head>
@@ -41,13 +10,13 @@ const BlogPost = ({ slug }) => {
         {/* Add meta tags for SEO */}
       </Head>
 
-      <Header />
-
       <div className="container mx-auto px-4 py-8">
         <h1>{title}</h1>
         <p>{date}</p>
         <p>{summary}</p>
-        <div dangerouslySetInnerHTML={{ __html: content }}></div>
+        <a href={link} className="text-blue-500 hover:text-blue-700">
+          Read More
+        </a>
       </div>
     </>
   );

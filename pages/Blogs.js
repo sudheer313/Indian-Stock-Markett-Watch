@@ -1,6 +1,6 @@
-import Head from "next/head";
 import React from "react";
-import Header from "../components/Header";
+import Head from "next/head";
+import BlogPost from "../components/BlogPost";
 
 const blogPosts = [
   {
@@ -44,18 +44,13 @@ const Blogs = () => {
 
         <div className="space-y-6">
           {blogPosts.map((blogPost) => (
-            <div key={blogPost.slug} className="border-b border-gray-300 pb-4">
-              <h3 className="text-xl font-semibold mb-2">
-                <a
-                  href={blogPost.link}
-                  className="text-blue-500 hover:text-blue-700"
-                >
-                  {blogPost.title}
-                </a>
-              </h3>
-              <p className="text-sm text-gray-500 mb-2">{blogPost.date}</p>
-              <p className="text-gray-700">{blogPost.summary}</p>
-            </div>
+            <BlogPost
+              key={blogPost.slug}
+              title={blogPost.title}
+              date={blogPost.date}
+              summary={blogPost.summary}
+              link={blogPost.link}
+            />
           ))}
         </div>
       </div>
