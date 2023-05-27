@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="bg-gray-800 py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
@@ -10,7 +16,17 @@ const Header = () => {
             Bharat-Bull-Bear (Indian Stock Market Watch)
           </button>
         </Link>
-        <nav>
+        <div className="lg:hidden">
+          <button
+            className={`text-white hover:text-blue-500 ${isMenuOpen ? "open" : ""}`}
+            onClick={handleMenuToggle}
+          >
+            <div className="hamburger"></div>
+            <div className="hamburger"></div>
+            <div className="hamburger"></div>
+          </button>
+        </div>
+        <nav className={`lg:flex ${isMenuOpen ? "block" : "hidden"}`}>
           <ul className="flex space-x-8 text-gray-300">
             <li>
               <Link href="/Home">

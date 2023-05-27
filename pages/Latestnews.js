@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import AdComponent from "../components/AdComponent";
 
 const newsData = [
   {

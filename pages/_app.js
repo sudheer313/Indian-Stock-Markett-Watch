@@ -8,7 +8,7 @@ import Head from "next/head";
 import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 import "../styles/footer.css";
-
+import "../styles/hamburger.css";
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 

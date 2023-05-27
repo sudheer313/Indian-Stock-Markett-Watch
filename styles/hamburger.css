@@ -1,0 +1,22 @@
+/* hamburger.css */
+
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.open .hamburger {
+  background-color: blue; /* Update with the desired color for the active state */
+}
+
+/* Adjust the breakpoint as needed */
+@media (min-width: 768px) {
+  .lg\:flex {
+    display: flex !important;
+  }
+  .lg\:hidden {
+    display: none !important;
+  }
+}

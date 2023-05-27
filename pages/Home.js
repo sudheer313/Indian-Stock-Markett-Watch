@@ -1,12 +1,9 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import React from "react";
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 import LatestNews from "../components/LatestNews";
 import Blogs from "./Blogs";
 import Head from "next/head";
-import AdComponent from "../components/AdComponent";
 
 const Home = () => {
   return (
@@ -48,19 +45,16 @@ const Home = () => {
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           Stay ahead in the world of investing by keeping yourself updated with
           our latest news, expert opinions, and insightful articles on the
-          Indian stock market. Whether youre a beginner or an experienced
+          Indian stock market. Whether you're a beginner or an experienced
           investor, our platform offers valuable resources to help you make
           well-informed decisions and achieve your financial goals.
         </p>
       </Section>
-      <Section backgroundColor="gray-100">
-        <AdComponent />
+      <Section>
         <LatestNews />
-        <AdComponent />
       </Section>
       <Section>
         <Blogs />
-        <AdComponent />
       </Section>
     </>
   );

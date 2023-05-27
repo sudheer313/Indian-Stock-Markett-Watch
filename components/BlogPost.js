@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import Header from "../components/Header";
 
-const BlogPost = ({ title, date, summary, link }) => {
+const BlogPost = ({ title, date, summary, content }) => {
   return (
     <>
       <Head>
@@ -11,12 +10,10 @@ const BlogPost = ({ title, date, summary, link }) => {
       </Head>
 
       <div className="container mx-auto px-4 py-8">
-        <h1>{title}</h1>
-        <p>{date}</p>
+        <h1 className="text-3xl font-bold mb-6">{title}</h1>
+        <p className="text-sm text-gray-500 mb-2">{date}</p>
         <p>{summary}</p>
-        <a href={link} className="text-blue-500 hover:text-blue-700">
-          Read More
-        </a>
+        <div dangerouslySetInnerHTML={{ __html: content }}></div>
       </div>
     </>
   );
