@@ -56,9 +56,11 @@ const Home = () => {
       <Section backgroundColor="gray-100">
         <AdComponent />
         <LatestNews />
+        <AdComponent />
       </Section>
       <Section>
         <Blogs />
+        <AdComponent />
       </Section>
     </>
   );
