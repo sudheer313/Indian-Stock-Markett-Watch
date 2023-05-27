@@ -6,6 +6,7 @@ import Section from "../components/Section";
 import LatestNews from "../components/LatestNews";
 import Blogs from "./Blogs";
 import Head from "next/head";
+import AdComponent from "../components/AdComponent";
 
 const Home = () => {
   return (
@@ -53,6 +54,7 @@ const Home = () => {
         </p>
       </Section>
       <Section backgroundColor="gray-100">
+        <AdComponent />
         <LatestNews />
       </Section>
       <Section>
