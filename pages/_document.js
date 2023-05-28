@@ -4,10 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta charSet="UTF-8" />
+        <meta charSet="UTF-8" />   
 
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
 
         {/* Google AdSense */}
         <script

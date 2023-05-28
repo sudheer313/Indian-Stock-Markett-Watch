@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <link rel="icon" href="/favicon.png" />
         <meta
           name="google-site-verification"
           content="DvvW_KExAZyAtNmd_jn-aMyTCnRWR8s0LjLqNvpwRys"
