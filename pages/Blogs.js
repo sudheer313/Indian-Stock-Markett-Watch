@@ -1,32 +1,10 @@
 import React from "react";
 import Head from "next/head";
 import BlogPost from "../components/BlogPost";
+import AdComponent from "../components/AdComponent";
 
 const blogPosts = [
-  {
-    title: "Investing in the Indian Stock Market: A Beginner's Guide",
-    date: "March 22, 2023",
-    summary:
-      "Learn the basics of investing in the Indian stock market and discover tips and strategies for successful investments.",
-    slug: "investing-in-the-indian-stock-market-a-beginners-guide",
-    link: "/blog/investing-in-the-indian-stock-market-a-beginners-guide",
-  },
-  {
-    title: "The Future of Technology Stocks in India",
-    date: "March 18, 2023",
-    summary:
-      "Explore the growth potential of technology stocks in India and understand the factors driving their performance.",
-    slug: "the-future-of-technology-stocks-in-india",
-    link: "/blog/the-future-of-technology-stocks-in-india",
-  },
-  {
-    title: "How to Diversify Your Investment Portfolio",
-    date: "March 15, 2023",
-    summary:
-      "Discover the benefits of diversification and learn how to create a diversified investment portfolio to minimize risk and maximize returns.",
-    slug: "how-to-diversify-your-investment-portfolio",
-    link: "/blog/how-to-diversify-your-investment-portfolio",
-  },
+  // ...your blog post data
 ];
 
 const Blogs = () => {
@@ -52,6 +30,11 @@ const Blogs = () => {
               link={blogPost.link}
             />
           ))}
+        </div>
+
+        {/* Add the AdComponent */}
+        <div className="mt-8">
+          <AdComponent />
         </div>
       </div>
     </>
