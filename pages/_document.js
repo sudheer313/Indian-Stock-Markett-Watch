@@ -6,6 +6,9 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
 
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+
         {/* Google AdSense */}
         <script
           async
