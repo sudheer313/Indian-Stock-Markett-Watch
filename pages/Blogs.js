@@ -28,6 +28,30 @@ const blogPosts = [
     slug: "how-to-diversify-your-investment-portfolio",
     link: "/blog/how-to-diversify-your-investment-portfolio",
   },
+  {
+    title: "Understanding Algorithmic Trading in the Indian Stock Market",
+    date: "May 31, 2023",
+    summary:
+      "Dive into the world of algorithmic trading in India, its benefits, drawbacks, and its impact on investors and the stock market.",
+    slug: "understanding-algorithmic-trading-in-india",
+    link: "/blog/understanding-algorithmic-trading-in-india",
+  },
+  {
+    title: "Cryptocurrencies in India: A Risky Venture or Lucrative Investment?",
+    date: "May 31, 2023",
+    summary:
+      "Explore the complex landscape of cryptocurrency investing in India, its legal implications, risks and potential rewards.",
+    slug: "cryptocurrencies-in-india-a-risky-venture-or-lucrative-investment",
+    link: "/blog/cryptocurrencies-in-india-a-risky-venture-or-lucrative-investment",
+  },
+  {
+    title: "Navigating the Real Estate Sector in India",
+    date: "May 29, 2023",
+    summary:
+      "Gain insights into the burgeoning real estate sector in India, and learn how to navigate and make informed investment decisions.",
+    slug: "navigating-the-real-estate-sector-in-india",
+    link: "/blog/navigating-the-real-estate-sector-in-india",
+  }
 ];
 
 const Blogs = () => {
