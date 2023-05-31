@@ -31,6 +31,41 @@ const latestNews = [
     summary:
       "Power Finance Corp reported a 44% rise in its net profit for the March quarter, amounting to Rs 6,128 crore. The company's consolidated net profit was Rs 4,295.90 crore in the same quarter of the previous year, as per a BSE filing.",
   },
+  {
+    id: 5,
+    title: "Indian IT Firms Brace for Post-Covid Demand Surge",
+    date: "May 29, 2023",
+    summary:
+      "As global economies begin to rebound from the Covid-19 pandemic, demand for IT services is expected to surge. Indian IT firms are ramping up their capabilities to meet this increased demand.",
+  },
+  {
+    id: 6,
+    title: "Indian Government Pushes for More Domestic Manufacturing",
+    date: "May 29, 2023",
+    summary:
+      "In a move to bolster the domestic manufacturing sector, the Indian government has announced new incentives for local production of key industrial components.",
+  },
+  {
+    id: 7,
+    title: "Reliance Jio Announces New Investments in 5G Technology",
+    date: "May 29, 2023",
+    summary:
+      "Reliance Jio has announced significant new investments in 5G technology, with plans to roll out new services to consumers later this year.",
+  },
+  {
+    id: 8,
+    title: "Infosys Announces Major Acquisition in Cloud Services Sector",
+    date: "May 31, 2023",
+    summary:
+      "Infosys has announced its acquisition of a major player in the cloud services sector, marking its significant expansion into this growing field. The move is expected to help Infosys provide more comprehensive solutions to its customers.",
+  },
+  {
+    id: 9,
+    title: "Reserve Bank of India Keeps Interest Rates Steady",
+    date: "May 31, 2023",
+    summary:
+      "The Reserve Bank of India (RBI) has decided to keep its key lending rate, the repo rate, unchanged at 4 percent. This is in line with market expectations, as the central bank continues its accommodative stance to support the economy.",
+  },
 ];
 
 const LatestNews = () => {
