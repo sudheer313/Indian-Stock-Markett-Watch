@@ -5,53 +5,85 @@ import AdComponent from "../components/AdComponent";
 
 const blogPosts = [
   {
-    title: "Investing in the Indian Stock Market: A Beginner's Guide",
-    date: "March 22, 2023",
+    title: "Impact of AI on the Future of Stock Trading",
+    date: "June 1, 2023",
     summary:
-      "Learn the basics of investing in the Indian stock market and discover tips and strategies for successful investments.",
-    slug: "investing-in-the-indian-stock-market-a-beginners-guide",
-    link: "/blog/investing-in-the-indian-stock-market-a-beginners-guide",
+      "Discover how Artificial Intelligence is revolutionizing stock trading with predictive analytics, algorithmic trading, and personalized wealth management.",
+    slug: "impact-of-ai-on-the-future-of-stock-trading",
+    link: "/blog/impact-of-ai-on-the-future-of-stock-trading",
   },
   {
-    title: "The Future of Technology Stocks in India",
-    date: "March 18, 2023",
+    title: "Investing in Green Energy: Opportunities and Challenges",
+    date: "June 2, 2023",
     summary:
-      "Explore the growth potential of technology stocks in India and understand the factors driving their performance.",
-    slug: "the-future-of-technology-stocks-in-india",
-    link: "/blog/the-future-of-technology-stocks-in-india",
+      "Uncover the potential of green energy investments in India and understand the opportunities and challenges in this rapidly growing sector.",
+    slug: "investing-in-green-energy-opportunities-and-challenges",
+    link: "/blog/investing-in-green-energy-opportunities-and-challenges",
   },
   {
-    title: "How to Diversify Your Investment Portfolio",
-    date: "March 15, 2023",
+    title: "ESG Investing: Aligning Profit with Purpose",
+    date: "June 3, 2023",
     summary:
-      "Discover the benefits of diversification and learn how to create a diversified investment portfolio to minimize risk and maximize returns.",
-    slug: "how-to-diversify-your-investment-portfolio",
-    link: "/blog/how-to-diversify-your-investment-portfolio",
+      "Learn about ESG investing, its growing prominence in India, and how you can align your investment decisions with your values.",
+    slug: "esg-investing-aligning-profit-with-purpose",
+    link: "/blog/esg-investing-aligning-profit-with-purpose",
   },
   {
-    title: "Understanding Algorithmic Trading in the Indian Stock Market",
-    date: "May 31, 2023",
+    title: "Decoding the Rise of NFTs in the Indian Market",
+    date: "June 4, 2023",
     summary:
-      "Dive into the world of algorithmic trading in India, its benefits, drawbacks, and its impact on investors and the stock market.",
-    slug: "understanding-algorithmic-trading-in-india",
-    link: "/blog/understanding-algorithmic-trading-in-india",
+      "Explore the emerging trend of NFTs, their impact on the digital economy in India, and the potential for investors.",
+    slug: "decoding-the-rise-of-nfts-in-the-indian-market",
+    link: "/blog/decoding-the-rise-of-nfts-in-the-indian-market",
   },
   {
-    title: "Cryptocurrencies in India: A Risky Venture or Lucrative Investment?",
-    date: "May 31, 2023",
+    title: "The Role of FinTech in Democratizing Investments",
+    date: "June 5, 2023",
     summary:
-      "Explore the complex landscape of cryptocurrency investing in India, its legal implications, risks and potential rewards.",
-    slug: "cryptocurrencies-in-india-a-risky-venture-or-lucrative-investment",
-    link: "/blog/cryptocurrencies-in-india-a-risky-venture-or-lucrative-investment",
+      "Understand how FinTech is democratizing investments by making them more accessible and inclusive to the masses.",
+    slug: "the-role-of-fintech-in-democratizing-investments",
+    link: "/blog/the-role-of-fintech-in-democratizing-investments",
   },
   {
-    title: "Navigating the Real Estate Sector in India",
-    date: "May 29, 2023",
+    title: "Mastering Risk Management in Stock Trading",
+    date: "June 6, 2023",
     summary:
-      "Gain insights into the burgeoning real estate sector in India, and learn how to navigate and make informed investment decisions.",
-    slug: "navigating-the-real-estate-sector-in-india",
-    link: "/blog/navigating-the-real-estate-sector-in-india",
-  }
+      "Master the art of risk management in stock trading to protect your investments and maximize your returns.",
+    slug: "mastering-risk-management-in-stock-trading",
+    link: "/blog/mastering-risk-management-in-stock-trading",
+  },
+  {
+    title: "Understanding the Impact of Geopolitics on the Stock Market",
+    date: "June 6, 2023",
+    summary:
+      "Learn how geopolitical events can impact the stock market and what investors can do to navigate these uncertainties.",
+    slug: "understanding-the-impact-of-geopolitics-on-the-stock-market",
+    link: "/blog/understanding-the-impact-of-geopolitics-on-the-stock-market",
+  },
+  {
+    title: "Deciphering Stock Market Trends Post-Covid-19",
+    date: "June 6, 2023",
+    summary:
+      "Delve into the changing trends in the stock market in the aftermath of the Covid-19 pandemic and what it means for investors.",
+    slug: "deciphering-stock-market-trends-post-covid-19",
+    link: "/blog/deciphering-stock-market-trends-post-covid-19",
+  },
+  {
+    title: "The Growth of HealthTech in India: An Investor's Guide",
+    date: "June 6, 2023",
+    summary:
+      "Explore the rapidly growing HealthTech industry in India and understand its investment potential.",
+    slug: "the-growth-of-healthtech-in-india-an-investors-guide",
+    link: "/blog/the-growth-of-healthtech-in-india-an-investors-guide",
+  },
+  {
+    title: "Investing in India's Digital Economy: A Comprehensive Guide",
+    date: "June 6, 2023",
+    summary:
+      "Dive into India's booming digital economy, its key sectors, and the opportunities it presents for investors.",
+    slug: "investing-in-indias-digital-economy-a-comprehensive-guide",
+    link: "/blog/investing-in-indias-digital-economy-a-comprehensive-guide",
+  },
 ];
 
 const Blogs = () => {
