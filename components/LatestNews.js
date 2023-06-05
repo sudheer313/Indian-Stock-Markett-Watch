@@ -4,67 +4,73 @@ import NewsCard from "./NewsCard";
 const latestNews = [
   {
     id: 1,
-    title: "Yellen Faces Fallout After Debt Limit Warnings Ignored",
-    date: "May 27, 2023",
+    title: "New Breakthrough in Quantum Computing",
+    date: "June 5, 2023",
     summary:
-      "U.S. Secretary of the Treasury, Yellen's cautions regarding the debt limit were not taken into consideration, now leaving her to tackle the resulting consequences. She has kept her contingency plans private but indicated she has preparations in place to deal with potential adverse outcomes.",
+      "Scientists have announced a new breakthrough in quantum computing that could revolutionize the field. This new development has the potential to significantly speed up processing times and improve data security.",
   },
   {
     id: 2,
-    title: "Aurobindo Pharma's Q4 Net Profit Drops by 12%, Revenue Rises 11%",
-    date: "May 27, 2023",
+    title: "SpaceX Launches New Satellite",
+    date: "June 5, 2023",
     summary:
-      "Aurobindo Pharma's net profit in Q4 has seen a 12% slump, standing at Rs 506 crore, whereas revenue saw a 11% increase. Q4FY23 EBITDA rose 3% from Rs 974.4 crore in the previous year, amounting to Rs 1,002 crore.",
+      "SpaceX has successfully launched a new satellite into orbit. The launch went as planned and the satellite is now operational, providing communication services to remote areas.",
   },
   {
     id: 3,
-    title:
-      "Union Ministers Laud PM Modi's 'Decisive Leadership' Marking 9 Years in Government",
-    date: "May 27, 2023",
+    title: "Apple Announces New iPhone",
+    date: "June 5, 2023",
     summary:
-      "At the national conclave marking 9 years of Modi government, union ministers commended PM's resolute leadership. Finance Minister Nirmala Sitharaman highlighted PM Modi's transformative mindset and his 'Seva Bhaav', earning him the trust of the Indian populace.",
+      "Apple has unveiled its latest iPhone model, which features a faster processor, improved camera capabilities, and a larger display. The new model is expected to be available for pre-order next week.",
   },
   {
     id: 4,
-    title: "Power Finance Corp's Net Profit Increases by 44% in March Quarter",
-    date: "May 27, 2023",
+    title: "Bitcoin Value Hits New High",
+    date: "June 6, 2023",
     summary:
-      "Power Finance Corp reported a 44% rise in its net profit for the March quarter, amounting to Rs 6,128 crore. The company's consolidated net profit was Rs 4,295.90 crore in the same quarter of the previous year, as per a BSE filing.",
+      "The value of Bitcoin has reached a new all-time high, continuing its upward trend. Investors attribute this increase to widespread adoption and growing acceptance of cryptocurrencies.",
   },
   {
     id: 5,
-    title: "Indian IT Firms Brace for Post-Covid Demand Surge",
-    date: "May 29, 2023",
+    title: "Amazon Opens New Headquarters",
+    date: "June 6, 2023",
     summary:
-      "As global economies begin to rebound from the Covid-19 pandemic, demand for IT services is expected to surge. Indian IT firms are ramping up their capabilities to meet this increased demand.",
+      "Amazon has officially opened its new headquarters in Arlington, Virginia. The tech giant expects the new headquarters to create thousands of jobs in the area.",
   },
   {
     id: 6,
-    title: "Indian Government Pushes for More Domestic Manufacturing",
-    date: "May 29, 2023",
+    title: "Google Faces Antitrust Investigation",
+    date: "June 6, 2023",
     summary:
-      "In a move to bolster the domestic manufacturing sector, the Indian government has announced new incentives for local production of key industrial components.",
+      "Google is under investigation by European antitrust authorities who are looking into the company's advertising practices. Google has pledged to cooperate fully with the investigation.",
   },
   {
     id: 7,
-    title: "Reliance Jio Announces New Investments in 5G Technology",
-    date: "May 29, 2023",
+    title: "Microsoft Acquires Gaming Company",
+    date: "June 6, 2023",
     summary:
-      "Reliance Jio has announced significant new investments in 5G technology, with plans to roll out new services to consumers later this year.",
+      "Microsoft has announced its acquisition of a major gaming company, aiming to strengthen its presence in the gaming industry. The terms of the deal, including the acquisition price, have not been disclosed.",
   },
   {
     id: 8,
-    title: "Infosys Announces Major Acquisition in Cloud Services Sector",
-    date: "May 31, 2023",
+    title: "Tesla Unveils New Electric Vehicle Model",
+    date: "June 6, 2023",
     summary:
-      "Infosys has announced its acquisition of a major player in the cloud services sector, marking its significant expansion into this growing field. The move is expected to help Infosys provide more comprehensive solutions to its customers.",
+      "Tesla has unveiled a new model of its electric vehicle line. The new model features extended battery life and improved autonomous driving capabilities.",
   },
   {
     id: 9,
-    title: "Reserve Bank of India Keeps Interest Rates Steady",
-    date: "May 31, 2023",
+    title: "Facebook Changes Privacy Policy",
+    date: "June 6, 2023",
     summary:
-      "The Reserve Bank of India (RBI) has decided to keep its key lending rate, the repo rate, unchanged at 4 percent. This is in line with market expectations, as the central bank continues its accommodative stance to support the economy.",
+      "Facebook has announced changes to its privacy policy. The social media giant says these changes give users more control over their data.",
+  },
+  {
+    id: 10,
+    title: "IBM Invests in Cloud Technology",
+    date: "June 6, 2023",
+    summary:
+      "IBM has announced a major investment in cloud technology, aiming to compete with other tech giants in the rapidly growing field. The company plans to launch several new cloud services within the next year.",
   },
 ];
 
