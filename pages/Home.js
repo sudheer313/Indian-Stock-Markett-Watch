@@ -1,23 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 import LatestNews from "../components/LatestNews";
 import Blogs from "./Blogs";
 import Head from "next/head";
-import AdComponent from "../components/AdComponent";
 
 const Home = () => {
-  const [shouldShowAd, setShouldShowAd] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShouldShowAd(true);
-    }, 5000); // Show ad after 5 seconds
-
-    // Clean up function
-    return () => clearTimeout(timer);
-  }, []); // Empty dependency array means this effect runs once after initial render
-
   return (
     <>
       <Head>
@@ -61,7 +49,6 @@ const Home = () => {
       <Section>
         <LatestNews />
       </Section>
-      <Section>{shouldShowAd && <AdComponent />}</Section>
     </>
   );
 };
