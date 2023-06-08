@@ -5,85 +5,75 @@ import AdComponent from "../components/AdComponent";
 
 const blogPosts = [
   {
-    title: "Impact of AI on the Future of Stock Trading",
-    date: "June 1, 2023",
-    summary:
-      "Discover how Artificial Intelligence is revolutionizing stock trading with predictive analytics, algorithmic trading, and personalized wealth management.",
-    slug: "impact-of-ai-on-the-future-of-stock-trading",
-    link: "/blog/impact-of-ai-on-the-future-of-stock-trading",
-  },
-  {
-    title: "Investing in Green Energy: Opportunities and Challenges",
-    date: "June 2, 2023",
-    summary:
-      "Uncover the potential of green energy investments in India and understand the opportunities and challenges in this rapidly growing sector.",
-    slug: "investing-in-green-energy-opportunities-and-challenges",
-    link: "/blog/investing-in-green-energy-opportunities-and-challenges",
-  },
-  {
-    title: "ESG Investing: Aligning Profit with Purpose",
-    date: "June 3, 2023",
-    summary:
-      "Learn about ESG investing, its growing prominence in India, and how you can align your investment decisions with your values.",
-    slug: "esg-investing-aligning-profit-with-purpose",
-    link: "/blog/esg-investing-aligning-profit-with-purpose",
-  },
-  {
-    title: "Decoding the Rise of NFTs in the Indian Market",
-    date: "June 4, 2023",
-    summary:
-      "Explore the emerging trend of NFTs, their impact on the digital economy in India, and the potential for investors.",
-    slug: "decoding-the-rise-of-nfts-in-the-indian-market",
-    link: "/blog/decoding-the-rise-of-nfts-in-the-indian-market",
-  },
-  {
-    title: "The Role of FinTech in Democratizing Investments",
-    date: "June 5, 2023",
-    summary:
-      "Understand how FinTech is democratizing investments by making them more accessible and inclusive to the masses.",
-    slug: "the-role-of-fintech-in-democratizing-investments",
-    link: "/blog/the-role-of-fintech-in-democratizing-investments",
-  },
-  {
-    title: "Mastering Risk Management in Stock Trading",
-    date: "June 6, 2023",
-    summary:
-      "Master the art of risk management in stock trading to protect your investments and maximize your returns.",
-    slug: "mastering-risk-management-in-stock-trading",
-    link: "/blog/mastering-risk-management-in-stock-trading",
-  },
-  {
-    title: "Understanding the Impact of Geopolitics on the Stock Market",
-    date: "June 6, 2023",
-    summary:
-      "Learn how geopolitical events can impact the stock market and what investors can do to navigate these uncertainties.",
-    slug: "understanding-the-impact-of-geopolitics-on-the-stock-market",
-    link: "/blog/understanding-the-impact-of-geopolitics-on-the-stock-market",
-  },
-  {
-    title: "Deciphering Stock Market Trends Post-Covid-19",
-    date: "June 6, 2023",
-    summary:
-      "Delve into the changing trends in the stock market in the aftermath of the Covid-19 pandemic and what it means for investors.",
-    slug: "deciphering-stock-market-trends-post-covid-19",
-    link: "/blog/deciphering-stock-market-trends-post-covid-19",
-  },
-  {
-    title: "The Growth of HealthTech in India: An Investor's Guide",
-    date: "June 6, 2023",
-    summary:
-      "Explore the rapidly growing HealthTech industry in India and understand its investment potential.",
-    slug: "the-growth-of-healthtech-in-india-an-investors-guide",
-    link: "/blog/the-growth-of-healthtech-in-india-an-investors-guide",
-  },
-  {
-    title: "Investing in India's Digital Economy: A Comprehensive Guide",
-    date: "June 6, 2023",
-    summary:
-      "Dive into India's booming digital economy, its key sectors, and the opportunities it presents for investors.",
-    slug: "investing-in-indias-digital-economy-a-comprehensive-guide",
-    link: "/blog/investing-in-indias-digital-economy-a-comprehensive-guide",
-  },
+    "title": "The Future of Work in India: A Look at the Top 5 Skills in Demand",
+    "date": "June 8, 2023",
+    "summary": "The Indian workforce is changing rapidly, with new skills in demand and old ones becoming obsolete. In this blog post, we take a look at the top 5 skills that will be in demand in the Indian workforce of the future.",
+    "slug": "the-future-of-work-in-india-a-look-at-the-top-5-skills-in-demand",
+    "link": "/blog/the-future-of-work-in-india-a-look-at-the-top-5-skills-in-demand"
+    },
+    {
+    "title": "How to Invest in Real Estate in India: A Beginner's Guide",
+    "date": "June 8, 2023",
+    "summary": "Real estate is a popular investment option in India, but it can be daunting for beginners. In this blog post, we provide a beginner's guide to investing in real estate in India. We cover everything from finding the right property to financing your investment.",
+    "slug": "how-to-invest-in-real-estate-in-india-a-beginners-guide",
+    "link": "/blog/how-to-invest-in-real-estate-in-india-a-beginners-guide"
+    },
+    {
+    "title": "The Rise of the Indian Middle Class: What it Means for the Economy",
+    "date": "June 8, 2023",
+    "summary": "The Indian middle class is growing rapidly, and this is having a major impact on the Indian economy. In this blog post, we take a look at the rise of the Indian middle class and what it means for the economy.",
+    "slug": "the-rise-of-the-indian-middle-class-what-it-means-for-the-economy",
+    "link": "/blog/the-rise-of-the-indian-middle-class-what-it-means-for-the-economy"
+    },
+    {
+    "title": "The Indian Startup Ecosystem: A Look at the Top 5 Startups to Watch",
+    "date": "June 8, 2023",
+    "summary": "The Indian startup ecosystem is booming, with new startups being founded every day. In this blog post, we take a look at the top 5 Indian startups to watch.",
+    "slug": "the-indian-startup-ecosystem-a-look-at-the-top-5-startups-to-watch",
+    "link": "/blog/the-indian-startup-ecosystem-a-look-at-the-top-5-startups-to-watch"
+    },
+    {
+    "title": "How to Start a Business in India: A Step-by-Step Guide",
+    "date": "June 8, 2023",
+    "summary": "Starting a business in India can be a daunting task, but it is definitely possible. In this blog post, we provide a step-by-step guide to starting a business in India. We cover everything from registering your business to getting funding.",
+    "slug": "how-to-start-a-business-in-india-a-step-by-step-guide",
+    "link": "/blog/how-to-start-a-business-in-india-a-step-by-step-guide"
+    },
+    {
+      "title": "How to Prepare for a Job Interview in India: A Step-by-Step Guide",
+      "date": "June 8, 2023",
+      "summary": "Preparing for a job interview can be daunting, but it is definitely possible. In this blog post, we provide a step-by-step guide to preparing for a job interview in India. We cover everything from researching the company to practicing your answers to common interview questions.",
+      "slug": "how-to-prepare-for-a-job-interview-in-india-a-step-by-step-guide",
+      "link": "/blog/how-to-prepare-for-a-job-interview-in-india-a-step-by-step-guide"
+      },
+      {
+      "title": "The Best Places to Live in India for Expats",
+      "date": "June 8, 2023",
+      "summary": "India is a vast and diverse country, with something to offer everyone. If you are considering moving to India, you may be wondering where to live. In this blog post, we take a look at the best places to live in India for expats.",
+      "slug": "the-best-places-to-live-in-india-for-expats",
+      "link": "/blog/the-best-places-to-live-in-india-for-expats"
+      },
+      {
+      "title": "The Indian Education System: A Guide for Parents",
+      "date": "June 8, 2023",
+      "summary": "The Indian education system is a complex one, and it can be difficult to understand for parents who are not familiar with it. In this blog post, we provide a guide to the Indian education system for parents. We cover everything from the different types of schools to the admissions process.",
+      "slug": "the-indian-education-system-a-guide-for-parents",
+      "link": "/blog/the-indian-education-system-a-guide-for-parents"
+      },
+      {
+      "title": "The Indian Healthcare System: A Guide for Patients",
+      "date": "June 8, 2023",
+      "summary": "The Indian healthcare system is a vast and complex one, and it can be difficult to navigate for patients who are not familiar with it. In this blog post, we provide a guide to the Indian healthcare system for patients. We cover everything from finding a doctor to getting a prescription.",
+      "slug": "the-indian-healthcare-system-a-guide-for-patients",
+      "link": "/blog/the-indian-healthcare-system-a-guide-for-patients"
+      },
+      {
+      "title": "The Indian Travel Guide: A Must-Read for Visitors",
+      "date": "June 8, 2023",
+      "summary": "India is a vast and diverse country, with something to offer everyone. If you are planning a trip to India, you may be wondering where to go and what to do. In this blog post, we provide a travel guide to India for visitors. We cover everything from the best places to visit to the dos and don'ts of Indian travel.",
+      "slug": "the-indian-travel-guide-a-must-read-for-visitors",
+      "link": "/blog/the-indian-travel-guide-a-must-read-for-visitors"
+      },
 ];
 
 const Blogs = () => {
