@@ -9,6 +9,8 @@ import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 import "../styles/footer.css";
 import "../styles/hamburger.css";
+import AdComponent from "../components/AdComponent";
+
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
@@ -26,12 +28,20 @@ function MyApp({ Component, pageProps }) {
           content="DvvW_KExAZyAtNmd_jn-aMyTCnRWR8s0LjLqNvpwRys"
         />
       </Head>
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <main className="flex-1">
-          <Component {...pageProps} />
-        </main>
-        <Footer />
+      <div className="flex min-h-screen">
+        <div className="w-1/4">
+          <AdComponent />
+        </div>
+        <div className="flex flex-col w-1/2">
+          <Header />
+          <main className="flex-1">
+            <Component {...pageProps} />
+          </main>
+          <Footer />
+        </div>
+        <div className="w-1/4">
+          <AdComponent />
+        </div>
       </div>
     </>
   );
