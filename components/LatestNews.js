@@ -4,73 +4,75 @@ import NewsCard from "./NewsCard";
 const latestNews = [
   {
     id: 1,
-    title: "New Breakthrough in Quantum Computing",
-    date: "June 5, 2023",
+    title:
+      "Sensex, Nifty close higher; Reliance Industries, HDFC Bank top gainers",
+    date: "June 8, 2023",
     summary:
-      "Scientists have announced a new breakthrough in quantum computing that could revolutionize the field. This new development has the potential to significantly speed up processing times and improve data security.",
+      "The Sensex and Nifty closed higher on Thursday, led by gains in Reliance Industries and HDFC Bank. The Sensex closed 279.3 points higher at 54,252.32, while the Nifty closed 82.20 points higher at 16,221.25.",
   },
   {
     id: 2,
-    title: "SpaceX Launches New Satellite",
-    date: "June 5, 2023",
+    title: "Rupee closes at 78.06 against US dollar",
+    date: "June 8, 2023",
     summary:
-      "SpaceX has successfully launched a new satellite into orbit. The launch went as planned and the satellite is now operational, providing communication services to remote areas.",
+      "The rupee closed at 78.06 against the US dollar on Thursday, recovering from its record low of 78.28 touched in the previous session. The rupee was supported by gains in domestic equities and positive global cues.",
   },
   {
     id: 3,
-    title: "Apple Announces New iPhone",
-    date: "June 5, 2023",
+    title: "Gold prices fall Rs 1,000 to Rs 52,000 per 10 gram",
+    date: "June 8, 2023",
     summary:
-      "Apple has unveiled its latest iPhone model, which features a faster processor, improved camera capabilities, and a larger display. The new model is expected to be available for pre-order next week.",
+      "Gold prices fell Rs 1,000 to Rs 52,000 per 10 gram in the national capital on Thursday, in line with a weak trend overseas. Silver also declined by Rs 1,500 to Rs 64,400 per kg.",
   },
   {
     id: 4,
-    title: "Bitcoin Value Hits New High",
-    date: "June 6, 2023",
+    title: "Crude oil prices rise above $115 per barrel",
+    date: "June 8, 2023",
     summary:
-      "The value of Bitcoin has reached a new all-time high, continuing its upward trend. Investors attribute this increase to widespread adoption and growing acceptance of cryptocurrencies.",
+      "Crude oil prices rose above $115 per barrel on Thursday, supported by concerns over tight global supplies. Brent crude futures were up 63 cents, or 0.5%, at $115.15 a barrel by 0230 GMT, while US West Texas Intermediate crude futures were up 62 cents, or 0.5%, at $113.99 a barrel.",
   },
   {
     id: 5,
-    title: "Amazon Opens New Headquarters",
-    date: "June 6, 2023",
+    title: "Shares of LIC to list on June 10",
+    date: "June 8, 2023",
     summary:
-      "Amazon has officially opened its new headquarters in Arlington, Virginia. The tech giant expects the new headquarters to create thousands of jobs in the area.",
+      "Shares of Life Insurance Corporation of India (LIC) will list on the stock exchanges on June 10. The government is planning to sell a 3.5% stake in LIC through an initial public offering (IPO). The IPO is expected to raise around Rs 21,000 crore.",
   },
   {
     id: 6,
-    title: "Google Faces Antitrust Investigation",
-    date: "June 6, 2023",
+    title: "The RBI has kept the repo rate unchanged at 4.4%",
+    date: "June 8, 2023",
     summary:
-      "Google is under investigation by European antitrust authorities who are looking into the company's advertising practices. Google has pledged to cooperate fully with the investigation.",
+      "The RBI has kept the repo rate unchanged at 4.4%. The RBI monetary policy committee (MPC) has decided to keep the repo rate unchanged at 4.4% in its June 2023 policy review. The MPC has also kept the reverse repo rate unchanged at 3.35%. The MPC has said that it will continue to monitor the evolving inflation and growth dynamics and take appropriate action as needed.",
   },
   {
     id: 7,
-    title: "Microsoft Acquires Gaming Company",
-    date: "June 6, 2023",
+    title:
+      "The Indian government has announced a Rs 1.95 lakh crore package to boost the economy",
+    date: "June 8, 2023",
     summary:
-      "Microsoft has announced its acquisition of a major gaming company, aiming to strengthen its presence in the gaming industry. The terms of the deal, including the acquisition price, have not been disclosed.",
+      "The government has announced a Rs 1.95 lakh crore package to boost the economy. The package includes measures such as tax cuts, spending on infrastructure, and support for the MSME sector. The government has said that the package will help to create jobs and boost growth.",
   },
   {
     id: 8,
-    title: "Tesla Unveils New Electric Vehicle Model",
-    date: "June 6, 2023",
+    title: "The Sensex and Nifty have hit new record highs",
+    date: "June 8, 2023",
     summary:
-      "Tesla has unveiled a new model of its electric vehicle line. The new model features extended battery life and improved autonomous driving capabilities.",
+      "The Sensex and Nifty have hit new record highs on the back of strong corporate earnings and positive global cues. The Sensex closed at 54,324.94, while the Nifty closed at 16,243.45",
   },
   {
     id: 9,
-    title: "Facebook Changes Privacy Policy",
-    date: "June 6, 2023",
+    title: "The rupee has appreciated against the US dollar",
+    date: "June 8, 2023",
     summary:
-      "Facebook has announced changes to its privacy policy. The social media giant says these changes give users more control over their data.",
+      "The rupee has appreciated against the US dollar to its highest level in over a month. The rupee closed at 77.73 against the US dollar. The appreciation of the rupee is due to a number of factors, including strong foreign inflows and a weak US dollar.",
   },
   {
     id: 10,
-    title: "IBM Invests in Cloud Technology",
-    date: "June 6, 2023",
+    title: "Gold prices have fallen",
+    date: "June 8, 2023",
     summary:
-      "IBM has announced a major investment in cloud technology, aiming to compete with other tech giants in the rapidly growing field. The company plans to launch several new cloud services within the next year.",
+      "Gold prices have fallen to their lowest level in over a month. Gold prices closed at Rs 51,700 per 10 gram. The fall in gold prices is due to a number of factors, including a stronger US dollar and rising interest rates",
   },
 ];
 
