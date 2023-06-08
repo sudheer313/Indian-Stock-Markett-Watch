@@ -13,19 +13,9 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link href="/Home">
           <button className="text-white font-bold text-lg hover:text-blue-500">
-            Bharat-Bull-Bear (Indian Stock Market Watch)
+            Indian Stock Market Watch
           </button>
         </Link>
-        <div className="lg:hidden">
-          <button
-            className={`text-white hover:text-blue-500 ${isOptionsOpen ? "open" : ""}`}
-            onClick={handleOptionsToggle}
-          >
-            <div className="hamburger"></div>
-            <div className="hamburger"></div>
-            <div className="hamburger"></div>
-          </button>
-        </div>
         <nav className="lg:flex">
           <ul className="flex space-x-8 text-gray-300">
             <li>
@@ -43,24 +33,12 @@ const Header = () => {
                 <button className="text-white hover:text-blue-500">Latest News</button>
               </Link>
             </li>
-            <li>
-              <Link href="/Blogs">
-                <button className="text-white hover:text-blue-500">Blogs</button>
-              </Link>
-            </li>
-            <li>
-              <Link href="/Robotics">
-                <button className="text-white hover:text-blue-500">Algo Trading</button>
-              </Link>
-            </li>
             <li className="relative">
               <button
                 className={`text-white hover:text-blue-500 ${isOptionsOpen ? "open" : ""}`}
                 onClick={handleOptionsToggle}
-                onMouseEnter={() => setIsOptionsOpen(true)}
-                onMouseLeave={() => setIsOptionsOpen(false)}
               >
-                <span className="mr-2">Options</span>
+                <span className="mr-2">More</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className={`h-4 w-4 transform transition-transform duration-200 ${
@@ -79,6 +57,20 @@ const Header = () => {
               {isOptionsOpen && (
                 <ul className="absolute left-0 ml-0 mt-2 bg-gray-800 py-2 rounded-lg">
                   <li>
+                    <Link href="/Blogs">
+                      <button className="text-white hover:text-blue-500">
+                        Blogs
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/Robotics">
+                      <button className="text-white hover:text-blue-500">
+                        Algo Trading
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/NiftyOptions">
                       <button className="text-white hover:text-blue-500">
                         Nifty Options
@@ -92,15 +84,15 @@ const Header = () => {
                       </button>
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/PrivacyPolicy">
+                      <button className="text-white hover:text-blue-500">
+                        Privacy Policy
+                      </button>
+                    </Link>
+                  </li>
                 </ul>
               )}
-            </li>
-            <li>
-              <Link href="/PrivacyPolicy">
-                <button className="text-white hover:text-blue-500">
-                  Privacy Policy
-                </button>
-              </Link>
             </li>
           </ul>
         </nav>
